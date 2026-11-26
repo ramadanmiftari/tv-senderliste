@@ -139,6 +139,10 @@ def main():
 
     # 3. One stream per channel: keep working (or tolerated) streams, best first.
     def keep(c):
+        # 403/451 from GitHub's US servers is almost always a geo block the source did not mark (Welt):
+        # the stream works in Germany, so it is never dropped for that.
+        if c.get("note") in ("HTTP 403", "HTTP 451"):
+            c["geo"] = True
         return c["ok"] or c["geo"] or c["fails"] <= MAX_FAILS and c.get("note") != "HTTP 404"
 
     best = {}
