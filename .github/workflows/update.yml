@@ -1,0 +1,36 @@
+name: Senderliste aktualisieren
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # jede Nacht 03:17 UTC (04:17 / 05:17 deutscher Zeit)
+  workflow_dispatch: {}    # von Hand: Actions > Senderliste aktualisieren > Run workflow
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Sender prüfen, Liste und Programmführer bauen
+        run: python curate.py
+      - name: Speichern, wenn sich etwas geändert hat
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u guide.xml.gz report.md state.json
+          if git diff --cached --quiet; then
+            echo "Keine Änderung."
+          else
+            git commit -m "Senderliste $(date -u +%Y-%m-%d)"
+            git push
+          fi

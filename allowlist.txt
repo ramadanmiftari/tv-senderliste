@@ -1,0 +1,60 @@
+# Erlaubte Stream-Server. Ein Eintrag gilt für den Namen selbst und alle Unternamen.
+# Nur die eigenen Server der Sender oder deren bezahlte CDN-Bereiche, keine Weiterleitungen Dritter.
+
+# Deutsch: ARD, ZDF, Arte, Dritte, KiKA, Welt, Deluxe Music, DW
+ard-mcdn.de
+mcdn-one.ard.de
+mcdn.br.de
+mcdn.ndr.de
+zdf-hls-15.akamaized.net
+zdf-hls-16.akamaized.net
+zdf-hls-17.akamaized.net
+zdf-hls-18.akamaized.net
+zdf-hls-19.akamaized.net
+artesimulcast.akamaized.net
+hrhlsde.akamaized.net
+kikageohls.akamaized.net
+mdrtvsnhls.akamaized.net
+mdrtvsahls.akamaized.net
+mdrtvthhls.akamaized.net
+rbb-hls-berlin.akamaized.net
+rbb-hls-brandenburg.akamaized.net
+rbhlslive.akamaized.net
+srfs.akamaized.net
+swrbwd-hls.akamaized.net
+swrrpd-hls.akamaized.net
+tagesschau.akamaized.net
+wdrfs247.akamaized.net
+w-live2weltcms.akamaized.net
+ndrint.akamaized.net
+sdn-global-live-streaming-packager-cache.3qsdn.com
+dwamdstream110.akamaized.net
+
+# Türkçe: TRT, Demirören (Kanal D), Doğuş (Star), TV8, Turkuvaz (ATV, A Haber), NOW
+medya.trt.com.tr
+trt.daioncdn.net
+demiroren.daioncdn.net
+dogus.daioncdn.net
+tv8.daioncdn.net
+rnttwmjcin.turknet.ercdn.net
+uycyyuuzyh.turknet.ercdn.net
+
+# Shqip
+albportal.net
+mediadesk.al
+balkanweb.com
+syritv.al
+apollon.tv
+prostream.al
+tringliveviz.akamaized.net
+a2news.com
+tring.al
+fieritv.com
+
+# Kosova: RTK, RTV21, Kohavision, T7, Arta, Syri (über Gjirafa)
+gjirafa.net
+tvdielli.com
+
+# International: Al Jazeera English, DW English
+getaj.net
+amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv

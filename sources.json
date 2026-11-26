@@ -1,0 +1,34 @@
+{
+  "publish_base": "https://raw.githubusercontent.com/ramadanmiftari/tv-senderliste/main",
+  "group_order": ["Deutsch", "Türkçe", "Shqip", "Kosova", "International"],
+  "playlists": [
+    {"group": "Deutsch", "priority": 1, "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_germany.m3u8"},
+    {"group": "Türkçe", "priority": 1, "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_turkey.m3u8"},
+    {"group": "Türkçe", "priority": 2, "url": "https://iptv-org.github.io/iptv/countries/tr.m3u", "only": "^(ATV|KanalD|StarTV|TV8|AHaber|NOW|ShowTV)\\.tr@"},
+    {"group": "Shqip", "priority": 1, "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_albania.m3u8"},
+    {"group": "Shqip", "priority": 2, "url": "https://iptv-org.github.io/iptv/countries/al.m3u"},
+    {"group": "Kosova", "priority": 1, "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_kosovo.m3u8"},
+    {"group": "Kosova", "priority": 2, "url": "https://iptv-org.github.io/iptv/countries/xk.m3u"},
+    {"group": "International", "priority": 2, "url": "https://iptv-org.github.io/iptv/categories/news.m3u", "only": "^(AlJazeera\\.qa@English$|DW\\.de@English$)"}
+  ],
+  "exclude_names": ["\\bEBA\\b"],
+  "guides": [
+    "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_ALJAZEERA1.xml.gz"
+  ],
+  "guide_aliases": {
+    "^BR ": "BR",
+    "^MDR ": "MDR",
+    "^NDR ": "NDR",
+    "^RBB ": "RBB",
+    "^(SWR |SR$)": "SWR/SR",
+    "^DELUXE MUSIC": "DELUXE MUSIC",
+    "^Vizion Plus$": "Vizion + HD",
+    "^(Syri|TV Syri)$": "TV Syri Vision",
+    "^DW English$": "DW English",
+    "^Al Jazeera English$": "AlJazeera English"
+  }
+}
