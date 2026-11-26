@@ -63,6 +63,12 @@ b01c02nl.mediatriple.net
 playlist.fasttvcdn.com
 lbl.netmedya.net
 
+# Anime (offizielle Gratis-Sender auf Englisch): Naruto (VIZ), RetroCrush, Yu-Gi-Oh!, Sonic TV
+d21vn5eki5qsdi.cloudfront.net
+linear-899.frequency.stream
+amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv
+stream-us-east-1.getpublica.com
+
 # Shqip
 albportal.net
 mediadesk.al

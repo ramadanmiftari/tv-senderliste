@@ -1,6 +1,6 @@
-# Senderliste – Prüfbericht 2026-11-26 04:09 UTC
+# Senderliste – Prüfbericht 2026-11-26 04:29 UTC
 
-96 Sender in der Liste, 72 mit Programmführer. 24 Einträge verworfen, weil ihr Server nicht auf allowlist.txt steht.
+100 Sender in der Liste, 72 mit Programmführer. 24 Einträge verworfen, weil ihr Server nicht auf allowlist.txt steht.
 
 | Nr | Sender | Gruppe | Status | Auflösung | EPG |
 |---|---|---|---|---|---|
@@ -98,12 +98,16 @@
 | 92 | Iqraa Quran | Islam | OK | 1080p | – |
 | 93 | Lalegul TV | Islam | OK | ?p | ja |
 | 94 | Qatar TV The Holy Quran | Islam | OK | 1080p | – |
-| 95 | Al Jazeera English | International | OK | 1080p | ja |
-| 96 | DW English | International | OK | 1080p | – |
+| 95 | Naruto | Anime | OK | 1080p | – |
+| 96 | RetroCrush | Anime | OK | 1080p | – |
+| 97 | Sonic TV | Anime | OK | 480p | – |
+| 98 | Yu-Gi-Oh! | Anime | OK | 1080p | – |
+| 99 | Al Jazeera English | International | OK | 1080p | ja |
+| 100 | DW English | International | OK | 1080p | – |
 
 ## Vorübergehend entfernt
 
-- SCHLAGER DELUXE (Deutsch): 4x HTTP 404
-- Kanali 7 (Shqip): 4x HTTP 404
-- A2 CNN Albania (Shqip): 4x URLError
-- A2 CNN (Shqip): 4x URLError
+- SCHLAGER DELUXE (Deutsch): 5x HTTP 404
+- Kanali 7 (Shqip): 5x HTTP 404
+- A2 CNN Albania (Shqip): 5x URLError
+- A2 CNN (Shqip): 5x URLError
