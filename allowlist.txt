@@ -39,6 +39,30 @@ tv8.daioncdn.net
 rnttwmjcin.turknet.ercdn.net
 uycyyuuzyh.turknet.ercdn.net
 
+# Türkçe (neu 26.11.): NTV/Kral Pop (Doğuş), Halk TV, Türkmedya (24 TV, TV4), TGRT, TBMM, CNBC-e
+dogus-live.daioncdn.net
+halktv-live.daioncdn.net
+turkmedya-live.ercdn.net
+canli.tgrthaber.com
+meclistv-live.ercdn.net
+hnpsechtsc.turknet.ercdn.net
+
+# Deutsch (neu 26.11.): Red Bull TV, Terra Mater, Welt der Wunder, Dokusat, Nachrichten360, Volksmusik TV
+46cfeb23c7f74853bba7a256655a3119.mediatailor.us-west-2.amazonaws.com
+53ff3982.wurl.com
+wdw.iptv-playoutcenter.de
+muc3.iptv-playoutcenter.de
+vmtv.iptv-playoutcenter.de
+cdn-apse1-prod.tsv2.amagi.tv
+
+# Islam: Saudi-Rundfunk (Quran/Sunnah aus Mekka/Medina), Qatar TV, Diyanet, Iqraa, Semerkand, Lalegül
+m.live.net.sa
+qatartv.akamaized.net
+eustr73.mediatriple.net
+b01c02nl.mediatriple.net
+playlist.fasttvcdn.com
+lbl.netmedya.net
+
 # Shqip
 albportal.net
 mediadesk.al
