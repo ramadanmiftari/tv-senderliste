@@ -1,4 +1,4 @@
-# Senderliste – Prüfbericht 2026-11-26 12:45 UTC
+# Senderliste – Prüfbericht 2026-11-27 12:36 UTC
 
 100 Sender in der Liste, 72 mit Programmführer. 24 Einträge verworfen, weil ihr Server nicht auf allowlist.txt steht.
 
@@ -47,7 +47,7 @@
 | 41 | TRT 2 | Türkçe | geo (in DE ok) | ?p | ja |
 | 42 | TRT Arabi | Türkçe | OK | 1440p | ja |
 | 43 | TRT Avaz | Türkçe | OK | 1440p | ja |
-| 44 | TRT Belgesel | Türkçe | Fehler 1x: HTTP 503 | ?p | ja |
+| 44 | TRT Belgesel | Türkçe | Fehler 2x: HTTP 503 | ?p | ja |
 | 45 | TRT Haber | Türkçe | OK | 1440p | ja |
 | 46 | TRT Kurdî | Türkçe | OK | 1440p | ja |
 | 47 | TRT Müzik | Türkçe | OK | 1440p | ja |
@@ -67,7 +67,7 @@
 | 61 | Kral Pop TV | Türkçe | geo (in DE ok) | ?p | – |
 | 62 | Minika Cocuk | Türkçe | OK | 720p | ja |
 | 63 | Minika Go | Türkçe | OK | 720p | ja |
-| 64 | NOW | Türkçe | OK | ?p | ja |
+| 64 | NOW | Türkçe | Fehler 1x: TimeoutError | ?p | ja |
 | 65 | NTV | Türkçe | OK | 1080p | ja |
 | 66 | Star TV | Türkçe | OK | ?p | ja |
 | 67 | TBMM TV | Türkçe | OK | ?p | – |
@@ -107,7 +107,7 @@
 
 ## Vorübergehend entfernt
 
-- SCHLAGER DELUXE (Deutsch): 6x HTTP 404
-- Kanali 7 (Shqip): 6x HTTP 404
-- A2 CNN Albania (Shqip): 6x URLError
-- A2 CNN (Shqip): 6x URLError
+- SCHLAGER DELUXE (Deutsch): 7x HTTP 404
+- Kanali 7 (Shqip): 7x HTTP 404
+- A2 CNN Albania (Shqip): 7x URLError
+- A2 CNN (Shqip): 7x URLError
